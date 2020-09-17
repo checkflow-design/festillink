@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #F8C133;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1B4751;
+  height: 70px;
+  padding: 0;
+}
+
+.navbar_right {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 34%;
+}
+
+nav input {
+  height: 40px;
+  width: 190px;
+  border-radius: 5px;
+}
+
+nav button {
+  height: 40px;
+  width: 50px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #F8C133;
+  background-color: #1B4751;
+  align-self: flex-end;
+}
+
+nav a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F8C133;
+  text-decoration: none;
+  background-color: #1B4751;
+}
+
+.icon {
+  color: #F8C133;
+}
+
+.banner {
+  position: relative;
+  background-position: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  margin: 5px;
+}
+
+.drop {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  bottom: 740px;
+  left: 500px;
+}
+
+.drop-color a {
+  background-color: white;
+  color: #F8C133;
+  width: 200px;
+  height: 40px;
+  border-width: 2px;
+  border-color: #1B4751;
+}
+
+.blog button {
+  width: 500px;
+}
+
+.drop-color button {
+  background-color: white;
+  color: #F8C133;
+  width: 200px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-width: 2px;
+  border-color: #1B4751;
+}
+
+.drop-color .blog button{
+  background-color: white;
+  color: #F8C133;
+  width: 100px;
+  height: 40px;
+  border-width: 2px;
+  border-color: #1B4751;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 210px;
+  left: 340px;
+}
+
+.slogan h1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+  -webkit-text-stroke: 2px #1B4751;
+}
+
+/*.slogan button {
+  position: absolute;
+  left: 400px
+  bottom: 200px;
+  width: 90px;
+}*/
+
+.titre {
+  display: flex;
+  text-align: center;
+  width: 800px;
+  letter-spacing: -1px;
+}
+
+.cadeau button {
+  position: absolute;
+  left: 290px;
+  bottom: -100px;
+  width: 200px;
+  height: 40px;
+  background-color: #F8C133;
+  border-radius: 5px;
+  color: #212529;
+  border: none;
+}
+
+
+.rencontre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interrupteur {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.interrupteur button {
+  background-color: white;
+  border-color: #1B4751;
+  border-width: 2px;
+  color: #F8C133;
+  width: 120px;
+  height: 45px;
+  margin: 0;
+}
+
+.item button {
+  margin: 35px;
+}
+
+.carousel-inner>.item{
+   /*disables white flash*/
+   -webkit-transition: -webkit-transform .5s ease-in-out;
+   -o-transition: -o-transform .5s ease-in-out;
+   transition: transform .5s ease-in-out;
+}
+
+
